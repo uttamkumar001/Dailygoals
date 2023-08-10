@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: antiquewhite;
+}
+.container {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font: 100 1.1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 8px;
+  margin: 10px;
+}
+button {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(66, 23, 66);
+}
+.task {
+  background-color: whitesmoke;
+  font: 100 1.1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.task span {
+  color: rgba(26, 18, 18, 0.459);
+}
+.task div {
+  width: 100%;
+}
